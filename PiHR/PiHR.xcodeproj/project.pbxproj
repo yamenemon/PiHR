@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0D4E06C422267D7100EB5DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E06C322267D7100EB5DDC /* AppDelegate.swift */; };
-		0D4E06C622267D7100EB5DDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E06C522267D7100EB5DDC /* ViewController.swift */; };
 		0D4E06C922267D7100EB5DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4E06C722267D7100EB5DDC /* Main.storyboard */; };
 		0D4E06CC22267D7100EB5DDC /* PiHR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E06CA22267D7100EB5DDC /* PiHR.xcdatamodeld */; };
 		0D4E06CE22267D7200EB5DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4E06CD22267D7200EB5DDC /* Assets.xcassets */; };
 		0D4E06D122267D7200EB5DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4E06CF22267D7200EB5DDC /* LaunchScreen.storyboard */; };
 		0D4E06DC22267D7200EB5DDC /* PiHRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E06DB22267D7200EB5DDC /* PiHRTests.swift */; };
+		0D4E06E8222692C600EB5DDC /* DomainLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E06E7222692C600EB5DDC /* DomainLoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		0D4E06C022267D7100EB5DDC /* PiHR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiHR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D4E06C322267D7100EB5DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D4E06C522267D7100EB5DDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D4E06C822267D7100EB5DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D4E06CB22267D7100EB5DDC /* PiHR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PiHR.xcdatamodel; sourceTree = "<group>"; };
 		0D4E06CD22267D7200EB5DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		0D4E06D722267D7200EB5DDC /* PiHRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiHRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D4E06DB22267D7200EB5DDC /* PiHRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiHRTests.swift; sourceTree = "<group>"; };
 		0D4E06DD22267D7200EB5DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4E06E7222692C600EB5DDC /* DomainLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainLoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				0D4E06C322267D7100EB5DDC /* AppDelegate.swift */,
-				0D4E06C522267D7100EB5DDC /* ViewController.swift */,
+				0D4E06E6222692B000EB5DDC /* Controllers */,
 				0D4E06C722267D7100EB5DDC /* Main.storyboard */,
 				0D4E06CD22267D7200EB5DDC /* Assets.xcassets */,
 				0D4E06CF22267D7200EB5DDC /* LaunchScreen.storyboard */,
@@ -97,6 +97,14 @@
 				0D4E06DD22267D7200EB5DDC /* Info.plist */,
 			);
 			path = PiHRTests;
+			sourceTree = "<group>";
+		};
+		0D4E06E6222692B000EB5DDC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D4E06E7222692C600EB5DDC /* DomainLoginViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D4E06C622267D7100EB5DDC /* ViewController.swift in Sources */,
 				0D4E06CC22267D7100EB5DDC /* PiHR.xcdatamodeld in Sources */,
+				0D4E06E8222692C600EB5DDC /* DomainLoginViewController.swift in Sources */,
 				0D4E06C422267D7100EB5DDC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
